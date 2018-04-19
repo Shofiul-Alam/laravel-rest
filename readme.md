@@ -21,65 +21,56 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
-## Very UseFull Commands 
+## Development of Laravel 
 
-Laravel Tuts 
+Before Developing  of laravel developer should consider the topics below: 
 
 Design The DB architecture 
+
 Relationship 
+
 Restriction 
 
-Database Connection - 
+
+## Very UseFull Commands 
+
+Laravel provide sophisticated "**artisan**" command line tool to generate and maintain the code 
 
 
-PHP artisan Command List - 
-——————————————
+#### Database Connection
 
-Php artisan 
-
-php artisan migrate —help 
+Edit .env file 
 
 
-Migration 
-—————
-
-Php artisan make:mode  {name} -m 
+### PHP artisan Command List - 
 
 
-Controller 
-————
-php artisan make:controller Buyer/BuyerController -r
+`php artisan` (to find all available commands)
 
+`php artisan migrate —help` (give possible migrate options)
 
-Routes
-———
-Php artisan routes:list
+`php artisan make:model  {name} -m ` (To create particular model)
 
+`php artisan make:controller Buyer/BuyerController -r` (to create particular Controller)
 
-Create Piovate Table 
-———————
-php artisan make:migration category_product_table --create=category_product (Naming Conventions should be carefully)
+`php artisan routes:list` (To check API end points)
 
-Convention - model_model (alphabetical order separated by _ ) 
+`php artisan make:migration category_product_table --create=category_product `
+
+( Pivot table Naming Conventions should be carefully. Convention- model_model (alphabetical order separated by _ ) 
 
 
 
-Laravel Factory 
-———————
+### Laravel Factory, Migrate, Seeds
+
 
 A Faker Library to generate Fake data using factory files 
 
-$ php artisan make:factory {name} —model={model}
+`php artisan make:factory {name} —model={model}`
 
+`php artisan migrate `
 
-Migrate 
-————
-Php artisan migrate 
-
-Seeds 
-————
-
-Php artisan db:seed
+`php artisan db:seed`
 
 
 
