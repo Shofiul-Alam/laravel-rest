@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Seller;
 use App\Seller;
 use Illuminate\Http\Request;
 use App\Http\Controllers\ApiController;
-use Symfony\Component\HttpFoundation\Response;
 
 class SellerController extends ApiController
 {
